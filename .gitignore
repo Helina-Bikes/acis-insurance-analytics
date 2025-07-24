@@ -1,0 +1,39 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore dataset and large files
+data/*.csv
+data/*.zip
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.pkl
+data/raw/
+*.bak
+
+# Ignore the specific large file
+data/raw/MachineLearningRating_v3.txt
