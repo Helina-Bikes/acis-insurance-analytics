@@ -37,3 +37,5 @@ data/raw/
 
 # Ignore the specific large file
 data/raw/MachineLearningRating_v3.txt
+!data/raw/*.dvc
+!*.dvc
